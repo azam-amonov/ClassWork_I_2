@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "gPuy0NAVYmZgdpWsbED01394Kw2tsV3u9wFY4aEJKUOgHebjk/6aiMe6IEJsb6m7Uk/k9nkueWOSerI0xadssQ==",
+  "dgSpecHash": "wccK1c3l+4/AjV2kE05mfwcYeA4KQmOzNnZDZq3d8gqOnNLlgvVA5lJ896Iy5Djn2AKRZL4NbLaPBPdI2tN/og==",
   "success": true,
   "projectFilePath": "/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C_38/ClassWork_C_38.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/azamamonov/.nuget/packages/bogus/34.0.2/bogus.34.0.2.nupkg.sha512"
+  ],
   "logs": []
 }

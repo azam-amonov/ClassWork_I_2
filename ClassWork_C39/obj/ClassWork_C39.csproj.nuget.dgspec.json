@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C_38/ClassWork_C_38.csproj": {}
+    "/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/ClassWork_C39.csproj": {}
   },
   "projects": {
-    "/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C_38/ClassWork_C_38.csproj": {
+    "/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/ClassWork_C39.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C_38/ClassWork_C_38.csproj",
-        "projectName": "ClassWork_C_38",
-        "projectPath": "/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C_38/ClassWork_C_38.csproj",
+        "projectUniqueName": "/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/ClassWork_C39.csproj",
+        "projectName": "ClassWork_C39",
+        "projectPath": "/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/ClassWork_C39.csproj",
         "packagesPath": "/Users/azamamonov/.nuget/packages/",
-        "outputPath": "/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C_38/obj/",
+        "outputPath": "/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/azamamonov/.nuget/NuGet/NuGet.Config"

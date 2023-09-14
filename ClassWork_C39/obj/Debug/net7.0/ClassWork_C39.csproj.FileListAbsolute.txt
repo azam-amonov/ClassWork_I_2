@@ -1,0 +1,17 @@
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/bin/Debug/net7.0/ClassWork_C39
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/bin/Debug/net7.0/ClassWork_C39.deps.json
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/bin/Debug/net7.0/ClassWork_C39.runtimeconfig.json
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/bin/Debug/net7.0/ClassWork_C39.dll
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/bin/Debug/net7.0/ClassWork_C39.pdb
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/bin/Debug/net7.0/Bogus.dll
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/obj/Debug/net7.0/ClassWork_C39.csproj.AssemblyReference.cache
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/obj/Debug/net7.0/ClassWork_C39.GeneratedMSBuildEditorConfig.editorconfig
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/obj/Debug/net7.0/ClassWork_C39.AssemblyInfoInputs.cache
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/obj/Debug/net7.0/ClassWork_C39.AssemblyInfo.cs
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/obj/Debug/net7.0/ClassWork_C39.csproj.CoreCompileInputs.cache
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/obj/Debug/net7.0/ClassWork_C39.csproj.CopyComplete
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/obj/Debug/net7.0/ClassWork_C39.dll
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/obj/Debug/net7.0/refint/ClassWork_C39.dll
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/obj/Debug/net7.0/ClassWork_C39.pdb
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/obj/Debug/net7.0/ClassWork_C39.genruntimeconfig.cache
+/Users/azamamonov/RiderProjects/dotNET_Level_i-2/ClassWork_I_2/ClassWork_C39/obj/Debug/net7.0/ref/ClassWork_C39.dll
