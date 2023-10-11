@@ -14,5 +14,5 @@ public class Todo : IFileSetEntity<Guid>
     
     public DateTime EndTime { get; set; }
     
-    public TimeSpan Duration { get; set; }
+    public int Duration { get; set; }
 }

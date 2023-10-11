@@ -10,7 +10,7 @@ public interface IUserService
     
     ValueTask<User> CreateAsync (User user, bool saveChanges = true, CancellationToken cancellationToken = default);
     
-    ValueTask<User> UpdateAsync (Guid id,User user,bool saveChanges = true, CancellationToken cancellationToken = default);
+    ValueTask<User> UpdateAsync (Guid id, User user,bool saveChanges = true, CancellationToken cancellationToken = default);
     
     ValueTask<User> DeleteAsync (Guid id, bool saveChanges = true, CancellationToken cancellationToken = default);
 }
