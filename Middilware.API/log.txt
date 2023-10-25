@@ -1,0 +1,4 @@
+ u request path - /swagger with method GET
+ u request path - / with method GET
+ u request path - /favicon.ico with method GET
+2023-10-24 16:01:15Z request path - / with method GET
