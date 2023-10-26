@@ -1,9 +1,15 @@
 using ClassMiddleWare.API;
+using ClassMiddleWare.API.Services;
 
 var builder = WebApplication.CreateBuilder(args);
-var app = builder.Build();
 
-app.UseMiddleware<CultureMiddleware>();
-app.MapGet("/", () => DateTime.Now.ToString());
+builder.Services.AddScoped<AuthService>();
+builder.Services.AddTransient<TokenGeneratorService>();
+builder.Services.AddControllers();
+
+var app = builder.Build();
+app.MapControllers();
+// app.UseMiddleware<CultureMiddleware>();
+// app.MapGet("/", () => DateTime.Now.ToString());
 
 app.Run();
