@@ -1,20 +1,23 @@
-using System.IdentityModel.Tokens.Jwt;
-using System.Security.Claims;
 using System.Text;
-using ClassMiddleWare.API.Constants;
-using ClassMiddleWare.API.Entitiy;
+using System.Security.Claims;
+using System.IdentityModel.Tokens.Jwt;
+using C_64.Identity.Domain.Entity;
 using Microsoft.IdentityModel.Tokens;
+using C_64.Identity.Application.Common.Services;
+using C_64.Identity.Application.Common.Constants;
 
-namespace ClassMiddleWare.API.Services;
+namespace C_64.Identity.Infrastructure.Common.Identity.Service;
 
-public class TokenGeneratorService : ITokenGeneratorService, ITokenGeneratorService
+public class TokenGeneratorService : ITokenGeneratorService
 {
     private string SecretKey = "mySecretKey";
 
     public string GetToken(User user)
     {
         var jwtToken = GetJwtToken(user);
+        
         var token = new JwtSecurityTokenHandler().WriteToken(jwtToken);
+        
         return token;
     }
 
@@ -23,6 +26,7 @@ public class TokenGeneratorService : ITokenGeneratorService, ITokenGeneratorServ
         var claims = GetClaims(user);
 
         var securityKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(SecretKey));
+        
         var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256);
 
         return new JwtSecurityToken(issuer: "TodoApp",

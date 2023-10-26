@@ -1,20 +1,21 @@
-using ClassMiddleWare.API.Entitiy;
-using ClassMiddleWare.API.Models.DTOs;
+using C_64.Identity.Application.Common.Services;
+using C_64.Identity.Domain.Entity;
+using C_64.Identity.Infrastructure.Common.Identity.Models;
 
-namespace ClassMiddleWare.API.Services;
+namespace C_64.Identity.Infrastructure.Common.Identity.Service;
 
-public class AuthService : IAuthService
+public class AuthService
 {
     private readonly TokenGeneratorService _tokenGeneratorService;
 
-    public AuthService(TokenGeneratorService tokenGeneratorService)
+    public AuthService(TokenGeneratorService tokenGeneratorService, IAuthService authServiceImplementation)
     {
         _tokenGeneratorService = tokenGeneratorService;
     }
     
     private static readonly List<User> _users = new ();
 
-    public  ValueTask<bool> RegisterAsync(RegistrationDetails registrationDetails)
+    public ValueTask<bool> RegisterAsync(RegistrationDetails registrationDetails)
     {
         var user = new User
         {
@@ -39,4 +40,5 @@ public class AuthService : IAuthService
         var accessToken = _tokenGeneratorService.GetToken(foundUser);
         return new (accessToken);
     }
+    
 }
