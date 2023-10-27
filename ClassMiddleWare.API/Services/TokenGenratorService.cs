@@ -2,7 +2,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using ClassMiddleWare.API.Constants;
-using ClassMiddleWare.API.Entitiy;
+using ClassMiddleWare.API.Models.Entitiy;
 using Microsoft.IdentityModel.Tokens;
 
 namespace ClassMiddleWare.API.Services;

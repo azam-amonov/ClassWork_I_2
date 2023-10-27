@@ -8,7 +8,7 @@ using C_64.Identity.Application.Common.Constants;
 
 namespace C_64.Identity.Infrastructure.Common.Identity.Service;
 
-public class TokenGeneratorService : ITokenGeneratorService
+public class TokenGeneratorService //: ITokenGeneratorService
 {
     private string SecretKey = "mySecretKey";
 

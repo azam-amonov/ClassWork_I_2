@@ -1,5 +1,6 @@
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using C_64.Identity.Domain.Entity;
 
 namespace C_64.Identity.Application.Common.Services;
 

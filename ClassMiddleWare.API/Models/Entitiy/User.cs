@@ -1,4 +1,4 @@
-namespace ClassMiddleWare.API.Entitiy;
+namespace ClassMiddleWare.API.Models.Entity;
 
 public class User
 {

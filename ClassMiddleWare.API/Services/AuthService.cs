@@ -1,5 +1,5 @@
-using ClassMiddleWare.API.Entitiy;
 using ClassMiddleWare.API.Models.DTOs;
+using ClassMiddleWare.API.Models.Entitiy;
 
 namespace ClassMiddleWare.API.Services;
 
